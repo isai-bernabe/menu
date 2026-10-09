@@ -2,22 +2,37 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú de Proyectos</title>
-    <h2>Autor: Isaí Barrera </h2>
-    <img src="Foto isai - menu js.jpg" alt="Foto de Isaí" width="150"> </img>
-    
-    <h3>Curso: Programación JavaScript - KrakeDev</h3>
-    <p><strong>Descripción:</strong> Este menú agrupa los proyectos desarrollados durante el curso. 
-    "Juego de Limones" es un arcade donde debes atrapar objetos que caen, y "Juego Cazando" 
-    se enfoca en la persecución y colisiones en un lienzo.</p>
-
+    <!-- Aquí conectamos tu nuevo archivo de estilos -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mis Proyectos</h1>
-    <ul>
-    
-        <li><a href="https://krakedev-juegolimones.vercel.app?_vercel_share=8lB4eUnToYBUpD66JXdqdbmzXfzuU170">Juego de Limones</a></li>
-        <li><a href="https://juegocazando-six.vercel.app">Juego Cazando</a></li>
-    </ul>
+    <div class="container">
+        <!-- Foto de perfil con clase para darle estilo -->
+        <img src="Foto isai - menu js.jpg" alt="Foto de Isaí" class="profile-img">
+        
+        <h2>Autor: Isaí Barrera</h2>
+        <h3>Curso: Programación JavaScript - KrakeDev</h3>
+        
+        <p><strong>Descripción:</strong> Este menú agrupa los proyectos desarrollados durante el curso. 
+        "Juego de Limones" es un arcade donde debes atrapar objetos que caen, y "Juego Cazando" 
+        se enfoca en la persecución y colisiones en un lienzo.</p>
+
+        <h1>Mis Proyectos</h1>
+        
+        <ul class="project-list">
+            <li>
+                <a href="https://krakedev-juegolimones.vercel.app?_vercel_share=8lB4eUnToYBUpD66JXdqdbmzXfzuU170" target="_blank">
+                    🕹️ Juego de Limones
+                </a>
+            </li>
+            <li>
+                <a href="https://juegocazando-six.vercel.app" target="_blank">
+                    👾 Juego Cazando
+                </a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
